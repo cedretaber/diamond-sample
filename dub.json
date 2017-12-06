@@ -1,0 +1,16 @@
+{
+	"name": "diamond-sample",
+	"authors": [
+		"cedretaber"
+	],
+	"dependencies": {
+		"diamond": "~>2.5.3"
+	},
+    "versions": ["VibeDefaultMain", "Diamond_Debug", "Diamond_WebServer"],
+	"sourcePaths": ["core", "models", "controllers"],
+    "stringImportPaths": ["views", "config"],
+    "targetType": "executable",
+	"description": "A sample diamond app.",
+	"copyright": "Copyright © 2017, cedretaber",
+	"license": "MIT"
+}

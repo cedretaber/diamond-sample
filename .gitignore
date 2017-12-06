@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+diamond-sample
+diamond-sample.so
+diamond-sample.dylib
+diamond-sample.dll
+diamond-sample.a
+diamond-sample.lib
+diamond-sample-test-*
+*.exe
+*.o
+*.obj
+*.lst

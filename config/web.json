@@ -1,0 +1,26 @@
+{
+    "name": "diamond-sample",
+    "staticFileRoutes": ["public"],
+    "homeRoute": "home",
+    "allowFileRoute": false,
+    "accessLogToConsole": true,
+    "addresses": [{
+      "ipAddresses": ["::1", "127.0.0.1"],
+      "port": 8181
+    }, {
+      "ipAddresses": ["::1", "127.0.0.1"],
+      "port": 8080
+    }],
+    "defaultHeaders": {
+      "general": {
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "staticFiles": {},
+      "notFound": {
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "error": {
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    }
+  }
